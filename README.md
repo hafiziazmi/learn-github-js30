@@ -1,5 +1,5 @@
 # Learn Git using Javascript30 Course
-Practice Git using wes bos JavaScript30 course
+Practice Git using [wes bos JavaScript30 course](https://javascript30.com/)
 
 ## Step 1
 
@@ -46,7 +46,7 @@ In this step, we will make changes to our clone and push them to GitHub.
 
 * Open the folder in your coding IDE.
 * Make a change in a file.
-* Open a terminal window and make sure it is in the directory of `learn-git-js30`.
+* Open a terminal window and make sure it is in the directory of `learn-github-js30`.
 * Run `git status`
   * <details>
 
@@ -112,4 +112,4 @@ Here is where things start to get different. Let's imagine we're working in grou
 * Locate the green button that says `New pull request` and click it.
   * You should now see the file changes you've made and how they differ from the original repo.
 * Click on the `Create pull request` button to submit your PR.
-* Now if you navigate to the <a href="https://github.com/hafiziazmi/learn-git-js30/pulls">original repository</a> and take a look at the `Pull Requests` yours should be there.
+* Now if you navigate to the <a href="https://github.com/hafiziazmi/learn-github-js30/pulls">original repository</a> and take a look at the `Pull Requests` yours should be there.
