@@ -77,7 +77,9 @@ In this step, we will make changes to our clone and push them to GitHub.
     This adds our file(s) to the 'staging area'. This is basically a fail safe if you accidentially add something you don't want. You can view items that our staged by running `git status`.
 
     </details>
-* Run `git commit -m "The sentence I want associated with this commit message"`
+* Run `git commit -m "The sentence I want associated with this commit message"`<br />
+Adjust your message accordingly, eg:<br />
+`git commit -m "Task for Day 02"`
   * <details>
 
     <summary> What does this do? </summary>
