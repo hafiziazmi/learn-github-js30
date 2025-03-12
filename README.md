@@ -1,5 +1,5 @@
 # Learn Git using Javascript30 Course
-Practice Git using [wes bos JavaScript30 course](https://javascript30.com/)
+Practice Git using [Wes Bos - JavaScript30 course](https://javascript30.com/)
 
 ## Step 1
 
