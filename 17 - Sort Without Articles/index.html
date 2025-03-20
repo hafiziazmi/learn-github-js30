@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Sort Without Articles</title>
-  <link rel="icon" href="https://fav.farm/🔥" />
+  <link rel="icon" href="https://fav.farm/🎈" />
 </head>
 <body>
 
@@ -11,7 +11,7 @@
     body {
       margin: 0;
       font-family: sans-serif;
-      background: url("https://source.unsplash.com/nDqA4d5NL0k/2000x2000");
+      background: url('bg.jpeg');
       background-size: cover;
       display: flex;
       align-items: center;
@@ -49,6 +49,24 @@
 <script>
 const bands = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'Norma Jean', 'The Bled', 'Say Anything', 'The Midway State', 'We Came as Romans', 'Counterparts', 'Oh, Sleeper', 'A Skylit Drive', 'Anywhere But Here', 'An Old Dog'];
 
+//replace the words a, the, an
+function strip(bandName) {
+  return bandName.replace(/^(a |the |an)/i, '').trim();
+}
+
+const sortedBands = bands.sort((a, b) => strip(a) > strip(b) ? 1 : -1);
+  //   return 1;
+  // }
+  // else {
+  //   return -1;
+  // }
+
+document.querySelector('#bands').innerHTML = 
+  sortedBands
+    .map(band => `<li>${band}</li>`)
+      .join('');
+
+console.log(sortedBands);
 
 </script>
 
