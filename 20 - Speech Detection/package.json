@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.12.5 <2.23.2"
+    "browser-sync": "^1.3.7"
+  },
+  "dependencies": {
+    "package": "^1.0.1"
   }
 }
